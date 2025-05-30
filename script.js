@@ -1,33 +1,32 @@
 // Lista de estudiantes y su experiencia actual
 const alumnos = [
-  { nombre: "Josefina Alves", xp: 3 },
-  { nombre: "Yasmin Benítez", xp: 2 },
-  { nombre: "Julieta Cuadrado", xp: 2 },
-  { nombre: "Lucas Duarte", xp: 0 },
-  { nombre: "Mahia Echerán", xp: 3 },
-  { nombre: "Facundo Gómez", xp: 1 },
-  { nombre: "Uma Gonzalez", xp: 2 },
-  { nombre: "Valentino Gordano", xp: 2 },
-  { nombre: "Juan Leles", xp: 2 },
-  { nombre: "Esteban Marins", xp: 1 },
-  { nombre: "Bautista Medina", xp: 1 },
-  { nombre: "Aldana Montes", xp: 2 },
-  { nombre: "Mateo Nievas", xp: 1 },
-  { nombre: "Benjamin Noble", xp: 3 },
-  { nombre: "Gastón Olhagaray", xp: 0 },
-  { nombre: "Anastasia Olivera", xp: 3 },
-  { nombre: "Evelin Pereira", xp: 2 },
-  { nombre: "Isa Pintos", xp: 1 },
-  { nombre: "Joaquin Rodriguez", xp: 1 },
-  { nombre: "Clara Romero", xp: 1 },
-  { nombre: "Luana Santestevan", xp: 2 },
-  { nombre: "Julieta Santos", xp: 3 },
-  { nombre: "Guzman Silva", xp: 0 },
-  { nombre: "Axel Silva", xp: 1 },
-  { nombre: "Tiago Sosa", xp: 1 },
-  { nombre: "Julieta Torres", xp: 1 },
-  { nombre: "Fernando Trentini", xp: 0 },
-  { nombre: "Sofia Viera", xp: 2 }
+  { nombre: "Mateo Alaniz", xp: 0 },
+  { nombre: "Pablo Almada", xp: 0 },
+  { nombre: "Elías Alvarez", xp: 0 },
+  { nombre: "Leandro Araya", xp: 0 },
+  { nombre: "Luciano Campelo", xp: 0 },
+  { nombre: "Jeremi Carballo", xp: 0 },
+  { nombre: "Leonardo Cuadrado", xp: 0 },
+  { nombre: "Daniel Fernandez", xp: 0 },
+  { nombre: "Yenifer Fernandez", xp: 0 },
+  { nombre: "Valentina Fernández", xp: 0 },
+  { nombre: "Alex Gonzalez", xp: 0 },
+  { nombre: "Natalia González", xp: 0 },
+  { nombre: "Olivia González", xp: 0 },
+  { nombre: "Zahira Lucas", xp: 0 },
+  { nombre: "Valerin Medina", xp: 0 },
+  { nombre: "Erika Merlo", xp: 0 },
+  { nombre: "Micaela Nuñez", xp: 0 },
+  { nombre: "Julieta Olivera", xp: 0 },
+  { nombre: "Sara Perez", xp: 0 },
+  { nombre: "Agustina Romero", xp: 0 },
+  { nombre: "Bruno Sartorio", xp: 0 },
+  { nombre: "Federico Silva", xp: 0 },
+  { nombre: "Brandon Sosa", xp: 0 },
+  { nombre: "Tatiana Suárez", xp: 0 },
+  { nombre: "Zoe Torres", xp: 0 },
+  { nombre: "Brandon Valdez", xp: 0 },
+  { nombre: "Hanhna Balero", xp: 0 }
 ];
 
 // Función para calcular nivel con suma triangular
@@ -49,9 +48,9 @@ function progresoNivel(xp) {
 
 // Función para seleccionar imagen de dragón según nivel
 function getImagenDragon(nivel) {
-  if (nivel < 1) return "dragon_huevo.png";
-  else if (nivel < 4) return "dragon_bebe.png";
-  else if (nivel < 8) return "dragon_adolescente.png"
+  if (nivel < 3) return "dragon_huevo.png";
+  else if (nivel < 7) return "dragon_bebe.png";
+  else if (nivel < 11) return "dragon_adolescente.png"
   else return "dragon_adulto.png";
 }
 
